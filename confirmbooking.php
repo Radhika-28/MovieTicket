@@ -133,7 +133,7 @@ if(isset($_POST['insert']))
     $showtime = $_POST['showtime'];
     
 
-$query = "INSERT INTO `confirbook`(`username`,`email`,`phoneno`,`moviename`,`ticketprice`,`noofseats`,`seatid`,`totalprice`,`showtime`) VALUES('$username','$email','$phoneno','$moviename','$ticketprice','$noofseats','$seatid','$gsm','$showtime')";
+$query = "INSERT INTO `confirmbook`(`username`,`email`,`phoneno`,`moviename`,`ticketprice`,`noofseats`,`seatid`,`totalprice`,`showtime`) VALUES('$username','$email','$phoneno','$moviename','$ticketprice','$noofseats','$seatid','$gsm','$showtime')";
 $query_run = mysqli_query($connection,$query);
 
 if($query_run)

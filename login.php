@@ -7,7 +7,7 @@
     <style type="text/css">
         body
         {
-            background-image:url(C:/xampp/htdocs/MovieTicket/movieimages/movielogo.jpg);
+            background-image:url(C:/Xampp/htdocs/MovieTicket/Images/login-page-background-images-hd-10.jpeg);
             background-size: cover;
             background-repeat: no-repeat;
   			background-attachment: fixed;
